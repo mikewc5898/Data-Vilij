@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="RESOURCES_RESOURCE_PATH" value="/hw1/data-vilij/resources/"/>
+        <property name="CSS_PATH" value="/gui/css/data-vilij.css/"/>
+        <property name="USER_DIRECTORY" value="user.dir"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="LINESAVE_ERROR_MSG"
+                  value="Incorrect data format on line: "/>
+        <property name="DUPLICATE_ERROR_MSG"
+                  value="Duplicate name error:  "/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="LOAD_WORK_TITLE" value="Load Work"/>
+        <property name="SCREENSHOT_TITLE" value="Save Screenshot"/>
+        <property name="EXIT_TITLE" value="Exit Application"/>
+        <property name="RUN_CONFIG" value="*Must input run configuration."/>
+        <property name="REFELCTION_ERROR_TITLE" value="Reflection Error"/>
+
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="LOAD_COUNT_MSG" value="Excess lines: Showing 10 in text area out of "/>
+        <property name="ALGORITHM_MSG" value="Algorithm not completed. Do you still want to exit?"/>
+        <property name="INVALID_DATA" value="Invalid data input. Enter new values."/>
+        <property name="DATA_FILE" value=".tsd"/>
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="IMG_FILE_EXT" value="*.jpg"/>
+        <property name="IMG_FILE" value=".jpg"/>
+        <property name="IMG_NAME" value="jpg"/>
+        <property name="IMG_FILE_EXT_DESC" value="JPG File"/>
+        <property name="TEXT_AREA" value="text area"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="REFELCTION_ERROR_MSG" value="Error Regarding Reflection"/>
+        <property name="DONE_RUNNING" value="Done Running"/>
+        <!-- ADDED-LABEL-NAMES -->
+        <property name="DISPLAY" value="Display"/>
+        <property name="GRAPH_TITLE" value="Data Visualization"/>
+        <property name="LOCK_TEXT" value="Lock Text"/>
+        <property name="AT" value="@"/>
+        <property name="NULL" value="null"/>
+        <property name="RUN" value="Run"/>
+        <property name="DONE" value="Done/Edit"/>
+        <property name="OK" value="Ok"/>
+        <property name="OUT" value=" out of "/>
+        <property name="ITERATIONS" value=" iterations "/>
+
+        <!-- CSS NAMES -->
+        <property name="TRANSPARENT" value="-fx-background-color: transparent;"/>
+        <property name="BLUE" value="-fx-stroke: blue;"/>
+        <property name="LINE" value=".chart-series-line"/>
+        <property name="SYMBOL" value=".chart-line-symbol"/>
+        <property name="LABEL" value="-fx-border-color: green;-fx-background-color: white;"/>
+
+        <!-- Algorithm info -->
+        <property name="classificationA" value="Random Classifier"/>
+        <property name="classificationB" value="Classification B"/>
+        <property name="classificationC" value="Classification C"/>
+        <property name="clusterA" value="Random Clustering"/>
+        <property name="clusterB" value="KMeansClusterer"/>
+        <property name="clusterC" value="Clustering C"/>
+        <property name="Classification" value="Classification"/>
+        <property name="Clustering" value="Clustering"/>
+        <property name="Settings" value="Settings"/>
+        <property name="config" value="Algorithm Run Configuration:"/>
+        <property name="maximum" value="Max Iterations:"/>
+        <property name="intervals" value="Set Interval:"/>
+        <property name="contRun" value="Continuous Run?"/>
+
+        <!--Data info-->
+        <property name="dash" value="-"/>
+        <property name="instance" value=" instances with "/>
+        <property name="load" value=" labels loaded from "/>
+        <property name="label" value="The labels are:"/>
+        <property name="labels" value=" labels. The labels are:"/>
+        <property name="numLabels" value="Number Of Labels: "/>
+        <property name="AVERAGE" value="average "/>
+
+        <!--Algorithms-->
+        <property name="RANDOM_CLASSIFIER" value="classification.RandomClassifier"/>
+        <property name="RANDOM_CLUSTERER" value="clustering.RandomClusterer"/>
+        <property name="KMEANSCLUSTERER" value="clustering.KMeansClusterer"/>
+
+
+
+    </property_list>
+    <property_options_list/>
+</properties>

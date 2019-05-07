@@ -1,0 +1,42 @@
+.chart-plot-background
+{
+-fx-border-color: black;
+-fx-border-width: 4px;
+-fx-border-insets: -2px;
+}
+.axis {
+-fx-border-color: transparent;
+-fx-tick-label-fill: brown;
+-fx-tick-length: 17px;
+-fx-minor-tick-length: 10px;
+}
+.axis .axis-tick-mark{
+-fx-stroke: green;
+-fx-stroke-width: 2px;
+}
+.chart-series-line {
+    -fx-stroke: transparent;
+}
+.label
+{
+-fx-text-fill: #006400;
+-fx-font-size: 12px;
+-fx-font-family:"Helvetica";
+}
+
+.chart-title
+{
+-fx-font-family:"sans serif";
+-fx-font-size: 16px;
+-fx-text-fill: black;
+}
+.radio-button{
+-fx-text-fill: #006400;
+-fx-font-size: 12px;
+-fx-font-family:"Helvetica";
+}
+.check-box{
+-fx-text-fill: #006400;
+-fx-font-size: 12px;
+-fx-font-family:"Helvetica";
+}
